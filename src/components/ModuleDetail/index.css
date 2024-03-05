@@ -1,0 +1,76 @@
+.module-detail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  gap: 16px
+}
+
+.module-detail-place {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(51, 51, 51, 1);
+}
+
+.module-detail-day {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.temperature-unit-item {
+  color: rgba(102, 102, 102, 1);
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.temperature-unit-item.active {
+  text-decoration: underline;
+  color: black;
+}
+
+.module-detail-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.module-detail-bottom__left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 50%;
+}
+
+.module-detail-bottom__container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.module-detail-bottom__right {
+  width: 50%;
+}
+
+.module-detail-bottom__left-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.module-detail-bottom__temperature {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 51px;
+  color: rgba(0, 0, 0, 1)
+}
+
+.module-detail-bottom__temperature-unit {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.module-detail-bottom__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(34, 34, 34, 1);
+}
